@@ -1,4 +1,9 @@
 var myjs =function  () {
+	$('#milestone').height($(window).height()-150);
+	$('#quote').height($(window).height()-150);
+	$('#action-box').height($(window).height()-150);
+	$('#client').height($(window).height()-150);
+	$('#market').height($(window).height()-150);
 	$('#carousel-example-generic').css('max-height',$(window).height());
 	$('#carousel-example-generic').css('overflow','hidden');
 	if ($(window).width()<$(window).height()) {
