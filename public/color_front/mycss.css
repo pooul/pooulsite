@@ -1,0 +1,117 @@
+#press-news h1{
+	color: white;
+}
+#press-news a{
+	color: white;
+	font-size: 18px;
+	font-family: "微软雅黑"
+}
+#press-news small{
+	font-size: 14px;
+}
+#header-navbar ul li a{
+	font-size:17px;
+}
+.header.navbar.navbar-transparent .navbar-nav > li > a{
+	color: #FFF ;
+ }
+.navbar-right{
+	margin-right: 15px;
+}
+.header.navbar.navbar-small .navbar-brand{
+	padding-left:30px;
+}
+p{
+	font-size: 14px;
+}
+.team .image{
+	border-radius: 0;
+}
+.team .image img{
+	border-radius: 0;
+}
+.team .name{
+	text-align: left;
+}
+.team p{
+	text-align: left;
+}
+#logo_ul li{
+	list-style: none;
+	float:left;
+	margin-right: 34px;
+	margin-bottom: 25px;
+	height: 40px;
+	overflow: hidden;
+}
+#logo_ul{
+	margin-left: -40px;
+}
+.navbar-brand img{
+	float: left;
+	margin-right: 10px;
+	margin-top: -11px;
+	border-radius:22px;
+}
+ .header.navbar.navbar-transparent .brand-text{
+	width: 120px;
+	margin-left: 42px;
+	margin-top: -5px;
+	font-size: 20px;
+	line-height: 20px;
+	display: block;
+}
+.header.navbar.navbar-small .brand-text{
+	margin-top: 0;
+}
+.header.navbar.navbar-small .brand-text #pooul{
+	display: none;
+}
+.header .navbar-brand{
+	padding: 25px 30px;
+}
+.qpos-img{
+	float: left;
+}
+.service .info{
+	margin-top: 60px;
+	margin-left: 110px;
+}
+.qpos-row{
+	text-align: center;
+}
+#weixin-img{
+	z-index:99;
+	position:absolute;
+	top:-164px;
+	left:10px;
+	display: none;
+}
+#weixin-logo{
+	color: #707478;
+}
+#weibo-logo{
+	color: #707478;
+}
+#weixin-logo:hover{
+	color: red;
+}
+#weibo-logo:hover{
+	color: red;
+}
+.footer{
+	background: #353d42;
+	padding: 45px 0 0 0;
+}
+#copy{
+	margin-top: 134px;
+	height: 50px;
+	width: 100%;
+	background-color: #22272a;
+	line-height: 50px;
+	color: #FFF;
+}
+#footbar a{
+	color: #FFF;
+	font-size: 20px;
+}
