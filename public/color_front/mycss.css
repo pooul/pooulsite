@@ -115,3 +115,9 @@ p{
 	color: #FFF;
 	font-size: 20px;
 }
+.carousel-control.right{
+	background-image:none;
+}
+.carousel-control.left{
+	background-image:none;
+}

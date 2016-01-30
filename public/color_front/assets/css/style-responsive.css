@@ -9,8 +9,33 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     .content.has-bg .content-bg img {
         width: 100%;
     }
+    .about-yyzx .one{
+        margin-top: 8%;
+    }
+    .about-yyzx .two{
+        margin-top: 40%;
+    }
+    .about-yyzx .three{
+        margin-top: 40%;
+    }
+    .about-yyzx .four{
+        margin-top: 45%;
+    }
 }
-
+@media (max-width: 1920px){
+    .about-yyzx .one{
+        margin-top: 8%;
+    }
+    .about-yyzx .two{
+        margin-top: 40%;
+    }
+    .about-yyzx .three{
+        margin-top: 40%;
+    }
+    .about-yyzx .four{
+        margin-top: 45%;
+    }
+}
 @media (max-width: 1200px) {
     .content.has-bg .content-bg img {
         max-height: 100%;
@@ -19,6 +44,7 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     .content .content-desc {
         margin-bottom: 30px;
     }
+
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .header.navbar .navbar-nav > li > a {
@@ -27,6 +53,9 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     .header.navbar.navbar-small .navbar-nav > li > a {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .about-yyzx h2{
+        font-size:36px;
     }
     .home-content h1 {
         font-size: 48px;
@@ -40,6 +69,7 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     .home-content p {
         margin-bottom: 30px;
     }
+
 }
 @media (max-width: 992px) { 
     .about-author .author {
@@ -48,6 +78,7 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     .about-author .author .image {
         width: 80px;
     }
+
 }
 @media (max-width: 767px) {
     .header.navbar .navbar-nav > li > a {
@@ -86,6 +117,27 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     .navbar-default .navbar-nav > li.dropdown > .dropdown-menu > li + li {
         border-color: #e7e7e7;
     }
+    .about-yyzx h2{
+        font-size:8px;
+        margin: 0;
+        padding-bottom: 4px;
+    }
+    .about-yyzx p{
+        font-size:8px;
+        line-height: 2px;
+    }
+    .about-yyzx .one{
+        margin-top: 15%;
+    }
+    .about-yyzx .two{
+        margin-top: 80%;
+    }
+    .about-yyzx .three{
+        margin-top: 65%;
+    }
+    .about-yyzx .four{
+        margin-top: 85%;
+    }
     .home-content h1 {
         font-size: 36px;
     }
@@ -97,6 +149,25 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
     }
     .home-content p {
         margin-bottom: 30px;
+    }
+    .carousel-inner h2{
+        font-size: 24px !important;
+    }
+    .carousel-inner p{
+        font-size:14px !important;
+        margin: 0 !important;
+    }
+    #item_four button{
+        font-size:14px;
+        padding: 0 !important;
+        margin-top: 1% !important;
+    }
+    #item_four .carousel-caption{
+        top:50% !important;
+        right:20% !important;
+    }
+    .press-red{
+        display: none !important;
     }
     .milestone-col + .milestone-col {
         border: none;

@@ -26,4 +26,8 @@ class PagesController < ApplicationController
 	def partner
 		
 	end
+
+	def press_show
+		
+	end
 end

@@ -10,6 +10,7 @@ var myjs =function  () {
 		$('.carousel-inner img').css('min-width','140%');
 		$('.carousel-inner img').css('margin-left',-$('.carousel-inner img').width()*0.14+'px');
 		$('#about-hr').css('display','none');
+		$('#page_item i').css('display','none');
 	}
 	if ($('div').hasClass('pages_home')) {
 		$('#navs_home').addClass('active');
