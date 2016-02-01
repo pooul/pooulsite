@@ -10,7 +10,7 @@ Rails.application.routes.draw do
    # get '/qpos' => 'pages#qpos'
    # get '/press' => 'pages#press'
    # get '/support' => 'pages#support'
-   # get '/safety_and_security'=> 'pages#safety_and_security'
+   # get '/safety-and-security'=> 'pages#safety-and-security'
    # get '/about' => 'pages#about'
    # get '/partner' => 'pages#partner'
    # get '/press_show' => 'pages#press_show'

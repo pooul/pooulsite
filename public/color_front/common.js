@@ -1,9 +1,9 @@
-var myjs =function  () {
-	$('#milestone').height($(window).height()-150);
-	$('#quote').height($(window).height()-150);
-	$('#action-box').height($(window).height()-150);
-	$('#client').height($(window).height()-150);
-	$('#market').height($(window).height()-150);
+var common =function  () {
+	$('#milestone').height($(window).height()-140);
+	$('#quote').height($(window).height()-140);
+	$('#action-box').height($(window).height()-140);
+	$('#client').height($(window).height()-140);
+	$('#market').height($(window).height()-140);
 	$('#carousel-example-generic').css('max-height',$(window).height());
 	$('#carousel-example-generic').css('overflow','hidden');
 	if ($(window).width()<$(window).height()) {
@@ -24,11 +24,11 @@ var myjs =function  () {
 	if ($('div').hasClass('pages_press')) {
 		$('#navs_press').addClass('active');
 	};
-	if ($('div').hasClass('pages_supprrt')) {
-		$('#navs_supprrt').addClass('active');
+	if ($('div').hasClass('pages_support')) {
+		$('#navs_support').addClass('active');
 	};
 	if ($('div').hasClass('pages_safety_and_security')) {
-		$('#navs_pages_safety_and_security').addClass('active');
+		$('#navs_safety_and_security').addClass('active');
 	};
 
 	$('#weixin-logo').mouseover(function(){

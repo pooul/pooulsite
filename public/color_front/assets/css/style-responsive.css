@@ -166,8 +166,29 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
         top:50% !important;
         right:20% !important;
     }
-    .press-red{
+    .block-red{
         display: none !important;
+    }
+    .feature{
+        display: none;
+    }
+    .qpos-bgcontent a{
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 5px !important;
+        font-size: 10px !important;
+    }
+    #milestone .home-content{
+        padding-left: 0 !important;
+    }
+    #action-box .home-content{
+        padding-left: 0 !important;
+    }
+    #client .home-content{
+        padding-right: 0 !important;
+    }
+    #market .home-content{
+        padding-left: 0 !important;
     }
     .milestone-col + .milestone-col {
         border: none;
