@@ -6,6 +6,12 @@ var common =function  () {
 	$('#market').height($(window).height()-140);
 	$('#carousel-example-generic').css('max-height',$(window).height());
 	$('#carousel-example-generic').css('overflow','hidden');
+	$("body").on("swipeleft",function(){
+		$('#right_imgbtn').trigger('click');
+	});
+	$("body").on("swiperight",function(){
+		$('#left_imgbtn').trigger('click');
+	});
 	if ($(window).width()<$(window).height()) {
 		$('.carousel-inner img').css('min-width','140%');
 		$('.carousel-inner img').css('margin-left',-$('.carousel-inner img').width()*0.14+'px');

@@ -81,6 +81,9 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
 
 }
 @media (max-width: 767px) {
+    .carousel-control{
+        display: none;
+    }
     .header.navbar .navbar-nav > li > a {
         padding: 10px 15px;
     }
