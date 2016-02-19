@@ -23,16 +23,14 @@
 	<link href="/color_front/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 	<link href="/color_front/assets/css/animate.min.css" rel="stylesheet" />
 	<link href="/color_front/assets/css/style.min.css" rel="stylesheet" />
-	<link href="/color_front/assets/css/style-responsive.css" rel="stylesheet" />
 	<link href="/color_front/assets/css/theme/red.css" id="theme" rel="stylesheet" />
 	<link href="/color_front/assets/plugins/simple-line-icons.css" rel="stylesheet">
 	<!-- ================== END BASE CSS STYLE ================== -->
-	<link href="/color_front/common.css" id="theme" rel="stylesheet" />
-
-
 	<!-- ================== BEGIN BASE JS ================== -->
 	<script src="/color_front/assets/plugins/pace/pace.min.js"></script>
 	<!-- ================== END BASE JS ================== -->
+
+	<%= stylesheet_link_tag "application" %>
 </head>
 <body>
 	<!-- begin #header -->
@@ -44,8 +42,7 @@
 	<!-- end #footer -->
 	<!-- ================== BEGIN BASE JS ================== -->
 	<script src="/color_front/assets/plugins/jquery/jquery-1.9.1.min.js"></script>
-	<script src="/color_front/jquery.mobile-1.4.5.min.js"></script>
-	<script src="/color_front/common.js" ></script>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<script src="/color_front/assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
 	<script src="/color_front/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- [if lt IE 9]
@@ -56,6 +53,7 @@
         <script src="/color_front/assets/plugins/jquery-cookie/jquery.cookie.js"></script>
         <script src="/color_front/assets/plugins/scrollMonitor/scrollMonitor.js"></script>
         <script src="/color_front/assets/js/apps.min.js"></script>
+
         <!-- ================== END BASE JS ================== -->
 
         <script>    
