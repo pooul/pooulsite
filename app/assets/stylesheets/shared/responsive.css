@@ -162,12 +162,12 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
         font-size:14px !important;
         margin: 0 !important;
     }
-    #item_four button{
+    #item_one button{
         font-size:14px;
         padding: 0 !important;
         margin-top: 1% !important;
     }
-    #item_four .carousel-caption{
+    #item_one .carousel-caption{
         top:50% !important;
         right:20% !important;
     }
