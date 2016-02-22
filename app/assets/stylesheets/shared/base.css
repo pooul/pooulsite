@@ -1,9 +1,3 @@
-.ui-btn-text{
-	display: none;
-}
-.ui-loader{
-	display: none;
-}
 .content.has-bg .content-bg:before{
 	background:none;
 }

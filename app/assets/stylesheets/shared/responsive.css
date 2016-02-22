@@ -81,6 +81,9 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
 
 }
 @media (max-width: 767px) {
+    #carousel-example-generic-copy .item .mobile-hidden{
+        display: none;
+    }
     .carousel-control{
         display: none;
     }
@@ -199,6 +202,9 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
         display: none !important;
     }
     .info h3{
+        text-align: center;
+    }
+    .info{
         text-align: center;
     }
     .milestone-col + .milestone-col {

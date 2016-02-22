@@ -6,11 +6,16 @@ var common =function  () {
 	$('#market').height($(window).height()-140);
 	$('#carousel-example-generic').css('max-height',$(window).height());
 	$('#carousel-example-generic').css('overflow','hidden');
-	$("body").on("swipeleft",function(){
-		$('#right_imgbtn').trigger('click');
-	});
-	$("body").on("swiperight",function(){
-		$('#left_imgbtn').trigger('click');
+	$('body').touchwipe({
+		wipeLeft:function(){
+			$('#right_imgbtn').trigger('click');
+		},
+		wipeRight:function(){
+			$('#left_imgbtn').trigger('click');
+		},
+		min_move_x:20,
+		min_move_y:20,
+		preventDefaultEvents:false
 	});
 	if ($(window).width()<$(window).height()) {
 		$('.carousel-inner img').css('min-width','140%');
