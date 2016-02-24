@@ -81,6 +81,15 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
 
 }
 @media (max-width: 767px) {
+    .home-content h1{
+        font-size: 36px !important;
+    }
+    #page_item i{
+        display: none;
+    }
+    #about-hr{
+        display: none;
+    }
     #carousel-example-generic-copy .item .mobile-hidden{
         display: none;
     }
