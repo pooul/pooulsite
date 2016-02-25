@@ -81,6 +81,18 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
 
 }
 @media (max-width: 767px) {
+    .header .navbar-brand{
+        padding: 25px 15px;
+    }
+    .header.navbar.navbar-small .navbar-brand{
+    padding-left:15px;
+    }
+    .press-bg-mobile{
+        left: 5% !important;
+    }
+    #carousel-example-generic-copy{
+        display: none;
+    }
     .home-content h1{
         font-size: 36px !important;
     }
@@ -179,7 +191,7 @@ Website: http://www.seantheme.com/color-admin-v1.8/frontend/
         padding: 0 !important;
         margin-top: 1% !important;
     }
-    #item_one .carousel-caption{
+    #home-bg-one{
         top:50% !important;
         right:20% !important;
     }

@@ -32,4 +32,7 @@ var common =function  () {
 	});
 
 	$('.has-bg').anystretch();
+	$('#partner-submit').click(function(){
+		alert('我们已保存您提交的信息，请耐心等待。谢谢合作！');
+	});
 }
